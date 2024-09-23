@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+     crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+
+
+
+</head>
+<body>
+   
+   <div class="HEADER"> <img src="nagar nigam.png" class="ann">
+    <br>
+    <h2>Ayodhya Nagar Nigam</h2>
+   </div>
+
+<div class="container">
+  
+  
+  <div class="menu_icon_box">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+
+
+
+  <div class="box">
+    <nav>
+      <ul>
+        <li class="active"  ><a href="#"></a>Amenities
+         <div class="submenu" 
+          <ul id="a">
+            <li href="#" ><i class="fa-solid fa-building-columns"></i>
+              <input type="checkbox"><a>Banks-240</a> </li>
+
+              <li href="#" ><i class="fa-solid fa-hotel"></i>
+                <input type="checkbox"><a>Hotels</a> </li>
+
+                <li href="#" ><i class="fa-solid fa-hospital"></i>
+                  <input type="checkbox"><a>Hospitals</a> </li>
+
+                  <li href="#" ><i class="fa-solid fa-tree"></i>
+                    <input type="checkbox"><a>Parks</a> </li>
+
+                    <li href="#" ><i class="fa-solid fa-bus"></i>
+                      <input type="checkbox"><a>Bus Stops</a> </li>
+
+                      <li href="#" ><i class="fa-solid fa-charging-station"></i>
+                        <input type="checkbox"><a>Car Charging Piont</a> </li>
+
+                        <li href="#" ><i class="fa-solid fa-gas-pump"></i>
+                          <input type="checkbox"><a>Petrol Pump</a> </li>
+
+                          <li href="#" ><i class="fa-solid fa-angle-right"></i>
+                            <input type="checkbox"><a>Stadium</a> </li>
+
+                            <li href="#" ><i class="fa-solid fa-cross"></i>
+                              <input type="checkbox"><a>Graveyard</a> </li>
+          </ul>
+         </div>
+        </li>
+        <li><a href="#"></a>Other</li>
+        <li><a href="#"></a>Netwrok</li>
+        <li><a href="#"></a>Road Analysis</li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+
+    
+
+    
+    
+
+
+
+
+
+
+</body>
+<script>
+  let menu_icon_box = document.querySelector(".menu_icon_box");
+  let box = document.querySelector(".box");
+
+  menu_icon_box. oneclick = function (){
+    menu_icon_box.classlist.toggle("active");
+    box.classlist.toggle("active");
+  }
+  document.oneclick = function(e){
+ if (!menu_icon_box.contain(e.target)&& !box.contains){
+  menu_icon_box.classlist.remove("active");
+  box.classlist.remove("active");
+ }
+  }
+</script>
+
+
+
+</html>

@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.HEADER{
+background-color:#f4a460;
+text-align: center;
+width:100%;
+left:120px;
+height:60px;
+position:fixed;
+z-index:10;
+}
+.h2{
+  text-align:center;
+  margin:5px;
+}
+
+
+
+.ann{
+  position:absolute;
+  height:auto;
+  width:60px;
+  right: 120px;
+  
+}
+.box{
+  width:fit-content;
+  height:100vh;
+  background-color:#f4a460;
+  position:absolute;
+  text-align:left;
+ 
+
+}
+.active.box{
+  opacity:1;
+  left: 0px;
+  pointer-events:fill;
+}
+.menu_icon_box{
+  z-index:2;
+  width:fit-content;
+  height:auto;
+  background-color:#f4a460;
+  margin:16px;
+  position:absolute;
+  border-radius: 4px;
+
+  cursor: pointer;
+
+}
+.line1 {
+  width:20px;
+  height: 2px;
+  margin:10px 8px;
+  background-color:black;
+  border-radius: 50px;
+
+
+}
+.line2{
+  width:20px;
+  height: 2px;
+  margin:10px 8px;
+  background-color:black;
+  border-radius: 50px;
+}
+.line3{
+  width:20px;
+  height: 2px;
+  margin:10px 8px;
+  background-color:black;
+  border-radius: 50px;
+  
+  
+  
+}
+.active .line1{
+  transform: translate(0px , 15px)rotate(45deg);
+
+}
+.active .line2{
+  opacity: 0;
+  
+}
+.active .line1{
+  transform: translate(0px , -15px)rotate(-45deg);
+  
+}
+nav{
+  padding-top: 100px;
+}
+nav ul{
+  margin: 0px 30px;
+  
+}
+nav ul li{
+  list-style: none;
+  margin-bottom:12px;
+  transition: 0.2s;
+
+}
+nav ul li:hover{
+  background-color:#f4a56049;
+  border-radius: 2px;
+}
+nav ul li a{
+  color: black;
+  font-size: 10px;
+  display: block;
+  text-decoration: none;
+  display:inline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
